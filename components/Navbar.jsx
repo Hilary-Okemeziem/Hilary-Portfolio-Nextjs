@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Link  from 'next/Link';
+import Link  from 'next/link';
 import { HiOutlineMail } from 'react-icons/hi';
 import Image from 'next/image';
 

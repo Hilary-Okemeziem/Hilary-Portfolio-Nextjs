@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import netflix from '../public/images/netflix.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
-import  Link  from 'next/Link'
+import  Link  from 'next/link'
 
 const Netflix = () => {
   return (

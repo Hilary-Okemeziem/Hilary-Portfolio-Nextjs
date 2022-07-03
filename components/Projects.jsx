@@ -1,5 +1,5 @@
 import React from 'react'
-import  Link  from 'next/Link'
+import  Link  from 'next/link'
 import netflix from '../public/images/netflix.png'
 import crypto from '../public/images/crypto.png'
 import twitch from '../public/images/twitch.png'

@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import  Link  from 'next/Link'
+import  Link  from 'next/link'
 import bgimg from '../public/images/IMG_9700.jpg'
 import Image from 'next/image'
 
