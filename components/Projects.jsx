@@ -12,7 +12,7 @@ const Projects = () => {
             <div className='py-2'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Projects</p>
             </div>
-            <h2 className='text-4xl text-gray-400 py-4 font-bold'>What I've Built</h2>
+            <h2 className='text-4xl text-gray-400 py-4 font-bold'>What I&apos;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
                     <Image src={netflix} alt="/" className='rounded-xl group-hover:opacity-30' />

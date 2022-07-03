@@ -23,7 +23,7 @@ const Contact = () => {
                         <div>
                             <h2 className='py-2 font-bold text-2xl'>Hilary Okemeziem</h2>
                             <p>Front-End Developer</p>
-                            <p className='py-4'>I am available for freelance, part-time or full-time positions. Contact me and let's talk.</p>
+                            <p className='py-4'>I am available for freelance, part-time or full-time positions. Contact me and let&apos;s talk.</p>
                         </div>
                     </div>
 
@@ -110,7 +110,7 @@ const Contact = () => {
                     <Image src="/../public/images/icons8-copyright-32.png" alt="/" width='20px' height='20px' />
                 </div>
                 <div>
-                    <p class="font- ml-2 mb-2"><small> Okemeziem.S.Hilary All rights reserved.</small></p>
+                    <p className="font-bold ml-2 mb-2"><small> Okemeziem.S.Hilary All rights reserved.</small></p>
                 </div>
             </div>
             

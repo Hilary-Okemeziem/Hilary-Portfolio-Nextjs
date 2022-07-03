@@ -15,7 +15,7 @@ const About = () => {
 
               <p className='py-2 text-gray-400'>I take pride in my work, and only deliver professional, clean, polished products. Currently a student of the University of Lagos to gain my Bachelors Degree in Applied Physics and Electronics, I learnt frontend web development in Tech Studio Academy for three(3) months where I gained my first certificate in web development. Today, I have more than one(1) year of experience in I.T and Web development.</p>
 
-              <p className='py-2 text-gray-400 md:hidden lg:block'>I pivoted into I.T because it was fascinating to see how tech products could help individuals and organisations save time, save money and expedite processes. It's simply magical!</p>
+              <p className='py-2 text-gray-400 md:hidden lg:block'>I pivoted into I.T because it was fascinating to see how tech products could help individuals and organizations save time, save money and expedite processes. It&apos;s simply magical!</p>
             </div>
             <div className=' hidden col-span-2 lg:flex w-full h-auto m-auto shadow-md shadow-black bg-[#0e0e10] rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
               <img src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' alt="/" className='rounded-xl' />
