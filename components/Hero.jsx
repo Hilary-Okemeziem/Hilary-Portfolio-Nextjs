@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
 
         <div className='area lg:hidden'>
-            <ul class="circles">
+            <ul className="circles">
                 <li className="square"></li>
                 <li className="square"></li>
                 <li className="square"></li>
