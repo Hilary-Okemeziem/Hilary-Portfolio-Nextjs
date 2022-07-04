@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Link from 'next/link';
 import Image from 'next/image';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import copyright from '../public/images/icons8-copyright-32.png'
 
 const Contact = () => {
   return (
@@ -107,7 +108,7 @@ const Contact = () => {
         <div className='py-4 bg-[#070708]'>
             <div className='flex items-center justify-center'>
                 <div>
-                    <Image src="/../public/images/icons8-copyright-32.png" alt="/" width='20px' height='20px' />
+                    <Image src={copyright} alt="/" width='20px' height='20px' />
                 </div>
                 <div>
                     <p className="font-bold ml-2 mb-2"><small> Okemeziem.S.Hilary All rights reserved.</small></p>

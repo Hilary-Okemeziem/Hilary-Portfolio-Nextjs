@@ -5,6 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Link  from 'next/link';
 import { HiOutlineMail } from 'react-icons/hi';
 import Image from 'next/image';
+import logo from '../public/images/Ho.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
       }>
         <div className='flex justify-between items-center w-full h-full px-2 lg:px-10 2xl:px-16'>
             <Link href='/' to="hero" smooth={true} offset={50} duration={500}>
-                <Image src="/../public/images/Ho.png" alt="/" width='125' height='70' className='cursor-pointer'/>               
+                <Image src={logo} alt="/" width='125px' height='80px' className='cursor-pointer'/>               
             </Link>  
             
             <div>
@@ -91,7 +92,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between '>
                         <Link href='/' >
-                            <Image src="/../public/images/Ho.png" alt="/" width='125' height='70' className='cursor-pointer' onClick={() => setNav(false)}/>
+                            <Image src={logo} alt="/" width='125px' height='80px' className='cursor-pointer' onClick={() => setNav(false)}/>
                         </Link>
                         
                         <div
