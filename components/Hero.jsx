@@ -3,7 +3,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import  Link  from 'next/link'
-import bgimg from '../public/images/IMG_9700.jpg'
+// import bgimg from '/../public/images/IMG_9700.jpg'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <Image src={bgimg} alt="/" width={600} height={708} className='object-cover'/>
+                <Image src='/../public/images/IMG_9700.jpg' alt="/" width={600} height={708} className='object-cover'/>
             </div>    
         </div>
 
