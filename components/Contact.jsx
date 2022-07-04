@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { AiOutlineMail} from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -8,9 +8,29 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import copyright from '../public/images/icons8-copyright-32.png'
 
 const Contact = () => {
+    function reveal() {
+        let reveals = document.querySelectorAll('.reveal')
+
+
+        for (let i = 0; i < reveals.length; i++) {
+            let windowheight = window.innerHeight;
+            let revealtop = reveals[i].getBoundingClientRect().top;
+            let revealpoint = 150
+            
+            if (revealtop < windowheight - revealpoint) {
+                reveals[i].classList.add('active')
+            }
+            else{
+                reveals[i].classList.remove('active')
+            }
+        }
+    }
+    useEffect (() => {
+      window.addEventListener('scroll', reveal);
+    }, [])
   return (
     <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] mx-auto px-2 pt-[5rem] pb-5'>
+        <div className='max-w-[1240px] mx-auto px-2 pt-[5rem] pb-5 reveal'>
             <div className='py-2'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Contact</p>
             </div>
