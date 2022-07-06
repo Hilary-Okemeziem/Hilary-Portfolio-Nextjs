@@ -4,12 +4,12 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import  Link  from 'next/link'
 import myimg from '../public/images/IMG_9700.JPG'
-import Image from 'next/image'
+import Image from 'next/future/image'
 
 const Hero = () => {
   return (
-    <div id='hero' className='bg-black w-full h-screen'>
-        <div className='hidden lg:flex justify-center items-center h-full'>
+    <div id='hero' className='bg-black w-full h-screen relative'>
+        {/* <div className='hidden lg:flex justify-center items-center h-full'>
             <div className='pl-[4rem] pt-[4rem]'>
                 <p className='text-[#ff5757] text-2xl'>Hello I&apos;m</p>
                 <h1 className='text-4xl sm:text-6xl font-bold text-[#ccf6f6]'>Hilary Okemeziem</h1>
@@ -27,6 +27,30 @@ const Hero = () => {
             <div>
                 <Image src={myimg} alt="/" width='600px' height='710px' className='object-cover'/>
             </div>    
+        </div> */}
+
+        <div className='hidden lg:flex h-full w-full'>    
+            <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-tl from-black z-10'/>
+                
+                    <Image src={myimg}  alt="/"  className='object-cover absolute top-0 right-0 w-[50rem] h-full' layout={'raw'}/>
+                
+                
+                <div className='absolute w-full top-[20%] z-50'>
+                <div className='pl-[4rem] pt-[4rem]'>
+                    <p className='text-[#ff5757] text-2xl'>Hello I&apos;m</p>
+                    <h1 className='text-4xl sm:text-6xl font-bold text-[#ccf6f6]'>Hilary Okemeziem</h1>
+                    <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>A Frontend Developer.</h2>
+                    <p className='text-[#8892b0] py-4 max-w-[700px]'>I&apos;m a frontend developer specializing in building (and occasionally designing) exceptional <br/> digital experiences. Currently, I&apos;m focused on building responsive web applications.</p>
+
+                    <div>
+                    <Link href='/#project'>
+                        <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#ff5757] hover:border-[#ff5757]'>
+                            View Projects <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3'/></span>
+                        </button>             
+                    </Link>       
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div className='area lg:hidden'>
