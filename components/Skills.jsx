@@ -11,7 +11,7 @@ import firebase from '../public/images/firebase.png'
 import github from '../public/images/github.png'
 import git from '../public/images/icons8-git-144.png'
 import Image from 'next/image'
-import { Fade, Rotate } from 'react-reveal'
+import { Fade, Rotate, Flip, Roll, Slide, Zoom} from 'react-reveal'
 
 const Skills = () => {
     function reveal() {
@@ -42,7 +42,7 @@ const Skills = () => {
             </div>
             <h2 className='text-4xl text-gray-400 font-bold py-4'>What I Can Do</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <Fade duration={2000} left>
+                <Fade duration={2000}>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                 </Rotate>
 
-                <Fade duration={2000} bottom>
+                <Flip duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -79,9 +79,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Flip>
 
-                <Fade duration={2000} top left>
+                <Roll duration={2000} top left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -92,9 +92,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Roll>
 
-                <Rotate duration={2000} top left>
+                <Slide duration={2000}>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -105,9 +105,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Rotate>
+                </Slide>
 
-                <Fade duration={2000} bottom left>
+                <Zoom duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -118,9 +118,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Zoom>
 
-                <Rotate duration={2000} bottom left>
+                <Fade duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -131,9 +131,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Rotate>
+                </Fade>
 
-                <Fade duration={2000} left>
+                <Rotate duration={2000} top left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -144,9 +144,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Rotate>
 
-                <Rotate duration={2000} left>
+                <Flip duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -157,9 +157,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Rotate>
+                </Flip>
 
-                <Fade duration={2000} bottom>
+                <Roll duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -170,9 +170,9 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Roll>
 
-                <Fade duration={2000} top left>
+                <Slide duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -183,7 +183,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                </Fade>
+                </Slide>
             </div>            
         </div>
     </div>
