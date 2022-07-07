@@ -42,7 +42,7 @@ const Skills = () => {
             </div>
             <h2 className='text-4xl text-gray-400 font-bold py-4'>What I Can Do</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <Fade duration={3000} left>
+                <Fade duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -55,7 +55,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Rotate duration={3000} left>
+                <Rotate duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                 </Rotate>
 
-                <Fade duration={3000} bottom>
+                <Fade duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -81,7 +81,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Fade duration={3000} top left>
+                <Fade duration={2000} top left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -94,7 +94,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Rotate duration={3000} top left>
+                <Rotate duration={2000} top left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -107,7 +107,7 @@ const Skills = () => {
                     </div>
                 </Rotate>
 
-                <Fade duration={3000} bottom left>
+                <Fade duration={2000} bottom left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -120,7 +120,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Rotate duration={3000} bottom left>
+                <Rotate duration={2000} bottom left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -133,7 +133,7 @@ const Skills = () => {
                     </div>
                 </Rotate>
 
-                <Fade duration={3000} left>
+                <Fade duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -146,7 +146,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Rotate duration={3000} left>
+                <Rotate duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -159,7 +159,7 @@ const Skills = () => {
                     </div>
                 </Rotate>
 
-                <Fade duration={3000} bottom>
+                <Fade duration={2000} bottom>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>
@@ -172,7 +172,7 @@ const Skills = () => {
                     </div>
                 </Fade>
 
-                <Fade duration={3000} top left>
+                <Fade duration={2000} top left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='mx-auto'>

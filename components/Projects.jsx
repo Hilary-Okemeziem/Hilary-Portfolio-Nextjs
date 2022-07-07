@@ -35,7 +35,7 @@ const Projects = () => {
             </div>
             <h2 className='text-4xl text-gray-400 py-4 font-bold'>What I&apos;ve Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-                <Fade duration={3000} top left>
+                <Fade duration={2000} top left>
                     <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
                         <Image src={netflix} alt="/" className='rounded-xl group-hover:opacity-30' />
                         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                 </Fade>
 
-                <Roll duration={3000} left>
+                <Roll duration={2000} right>
                     <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
                         <Image src={crypto} alt="/" className='rounded-xl group-hover:opacity-30' />
                         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
@@ -61,7 +61,7 @@ const Projects = () => {
                     </div>
                 </Roll>
 
-                <Slide duration={3000} bottom left>
+                <Slide duration={2000} bottom >
                     <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
                         <Image src={twitch} alt="/" className='rounded-xl group-hover:opacity-30' />
                         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>

@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
             <h2 className='text-4xl text-gray-400 py-4 font-bold'>Get In Touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
-                <Fade duration={3000} bottom left>
+                <Fade duration={2000} bottom left>
                     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4'>
                         <div className='lg:p-4 w-full'>
                             <div>
@@ -82,7 +82,7 @@ const Contact = () => {
                     </div>
                 </Fade>
 
-                <Fade duration={3000} left>
+                <Fade duration={2000} left>
                     <div className='col-span-3 w-full h-auto shadow-md shadow-black bg-[#0e0e10] rounded-xl'>
                         <div className='p-4'>
                             <form action='https://getform.io/f/ca318b4d-45cc-42a1-ade3-b46122deca17' method='POST'>
