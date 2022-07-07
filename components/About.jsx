@@ -1,7 +1,7 @@
 import React, { useEffect} from 'react'
 import myimg from '../public/images/IMG_9700.JPG'
 import Image from 'next/image'
-import { Fade, Rotate } from 'react-reveal'
+import { Fade, Rotate, Zoom } from 'react-reveal'
 
 const About = () => {
         function reveal() {
@@ -49,11 +49,11 @@ const About = () => {
                 <img src='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60' alt="/" className='rounded-xl' />
               </div>
             </Rotate>
-            <Rotate duration={2000} bottom>
+            <Zoom duration={2000}>
               <div className='lg:hidden col-span-2 w-full h-auto m-auto shadow-md shadow-black bg-[#0e0e10] rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image src={myimg} alt="/" width='300px' height='450px' layout='responsive' className='object-cover rounded-xl'/>
               </div>
-            </Rotate>
+            </Zoom>
         </div>
     </div>
   )
