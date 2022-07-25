@@ -10,6 +10,7 @@ import tailwind from '../public/images/tailwind.png'
 import firebase from '../public/images/firebase.png'
 import github from '../public/images/github.png'
 import git from '../public/images/icons8-git-144.png'
+import redux from '../public/images/icons8-redux-144.png'
 import Image from 'next/image'
 import { Fade, Rotate, Flip, Roll, Slide, Zoom} from 'react-reveal'
 
@@ -107,6 +108,19 @@ const Skills = () => {
                     </div>
                 </Slide>
 
+                <Fade duration={2000}>
+                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='mx-auto'>
+                                <Image src={redux} alt="/" width='70px' height='70px'/>
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>Redux</h3>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+
                 <Zoom duration={2000} left>
                     <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -114,7 +128,7 @@ const Skills = () => {
                                 <Image src={tailwind} alt="/" width='64px' height='64px' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Tailwind</h3>
+                                <h3>Tailwind CSS</h3>
                             </div>
                         </div>
                     </div>
