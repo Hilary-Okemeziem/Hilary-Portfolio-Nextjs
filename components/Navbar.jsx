@@ -196,7 +196,7 @@ const Navbar = () => {
                             </Link>
                             
                             <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-[#565f69]'>
-                                <a href='https://drive.google.com/file/d/1rHfHhHdzHYx3p91laitJ5shulpBOQsif/view?usp=drivesdk' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full px-2 text-gray-300 font-bold'>
+                                <a href='https://drive.google.com/file/d/1i21YRdbMP_w7yFqEBESwUfMHynWqfEN3/view?usp=drivesdk' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full px-2 text-gray-300 font-bold'>
                                     Resume <BsFillPersonLinesFill size={30}/>
                                 </a>
                             </li>
