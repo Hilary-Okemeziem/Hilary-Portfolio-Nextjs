@@ -5,6 +5,7 @@ import crypto from '../public/images/crypto.png'
 import twitch from '../public/images/twitch.png'
 import kaycelle from '../public/images/kaycelle.png'
 import realestate from '../public/images/realestate.png'
+import ip from '../public/images/ip.png'
 import Image from 'next/image'
 import { Bounce, Fade, Flip, Roll, Slide, Zoom } from 'react-reveal'
 import {AiOutlineEye, AiFillGithub} from 'react-icons/ai'
@@ -55,7 +56,7 @@ const Projects = () => {
                     <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
                         <Image src={realestate} alt="/" className='rounded-xl group-hover:opacity-30' />
                         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
-                            <h3 className='text-3xl tracking-wider text-white text-center'>Real Estate Web</h3>
+                            <h3 className='text-3xl tracking-wider text-white text-center'>Real Estate Website</h3>
                             <p className='pb-4 pt-2 text-white text-center'>Next JS</p>
                             <Link href='/RealEstate'>
                                 <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
@@ -76,6 +77,19 @@ const Projects = () => {
                         </div>
                     </div>
                 </Roll>
+
+                <Slide duration={2000}>
+                    <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
+                        <Image src={ip} alt="/" className='rounded-xl group-hover:opacity-30' />
+                        <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                            <h3 className='text-3xl tracking-wider text-white text-center'>IP Address Tracker</h3>
+                            <p className='pb-4 pt-2 text-white text-center'>React JS</p>
+                            <Link href='/Ip'>
+                                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                            </Link>
+                        </div>
+                    </div>
+                </Slide>
 
                 <Fade duration={2000} top left>
                     <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-black bg-[#0e0e10] rounded-xl p-4 group hover:bg-gradient-to-r from-[#ff5757] to-[#f899ac]'>
@@ -137,7 +151,7 @@ const Projects = () => {
                         <Image src={realestate} alt="/" className='rounded-t-xl'/>
                         <div className='shadow-md shadow-black bg-[#0e0e10] rounded-b-xl p-2'>
                             <div className='flex items-center justify-between'>
-                                <h3 className='text-2xl tracking-wider text-white'>Real Estate Web</h3>
+                                <h3 className='text-2xl tracking-wider text-white'>Real Estate Website</h3>
                                 <div className='flex items-center gap-4'>
                                     <a href="https://lhary-real-estate.vercel.app" target='_blank' rel='noreferrer'>
                                         <AiOutlineEye size={22}/>
@@ -177,6 +191,29 @@ const Projects = () => {
                         </div>
                     </div>
                 </Zoom>
+
+                <Slide duration={2000}>
+                    <div className='h-auto w-full bg-[#0e0e10] rounded-b-xl'>
+                        <Image src={ip} alt="/" className='rounded-t-xl'/>
+                        <div className='shadow-md shadow-black bg-[#0e0e10] rounded-b-xl p-2'>
+                            <div className='flex items-center justify-between'>
+                                <h3 className='text-2xl tracking-wider text-white'>IP Address Tracker</h3>
+                                <div className='flex items-center gap-4'>
+                                    <a href="https://ipaddress-webtracker.vercel.app/" target='_blank' rel='noreferrer'>
+                                        <AiOutlineEye size={22}/>
+                                    </a>
+                                    <a href="https://github.com/Hilary-Okemeziem/IP-address-tracker-reactjs" target='_blank' rel='noreferrer'>
+                                        <AiFillGithub size={22}/>
+                                    </a>
+                                </div>
+                            </div>
+                            <p className='pb-3 pt-1 text-white'>React JS</p>
+                            <Link href='/Ip'>
+                                <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>More Info</p>
+                            </Link>
+                        </div>
+                    </div>
+                </Slide>
 
                 <Fade duration={2000} top left>
                     <div className='h-auto w-full bg-[#0e0e10] rounded-b-xl'>
