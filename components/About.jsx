@@ -25,8 +25,8 @@ const About = () => {
         window.addEventListener('scroll', reveal);
       }, [])
   return (
-    <div id='about' className='w-full lg:h-screen flex items-center py-16 bg-[#070708]'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-5 gap-10 reveal'>
+    <div id='about' className='lg:h-screen flex items-center py-16 bg-[#070708]'>
+        <div className='max-w-[1240px] m-auto md:grid grid-cols-5 gap-10 reveal px-2 lg:px-10'>
             <div className='col-span-3 pl-4 py-2'>
               <div className=' py-4'>
                 <p className='text-3xl tracking-widest font-bold inline border-b-4 border-[#ff5757] uppercase '>About</p>

@@ -16,7 +16,7 @@ const Hero = () => {
                 
                 
                 <div className='absolute w-full top-[20%] z-50'>
-                <div className='pl-[4rem] pt-[4rem]'>
+                <div className='pl-[6rem] pt-[4rem]'>
                     <p className='text-[#ff5757] text-2xl'>Hello I&apos;m</p>
                     <h1 className='text-4xl sm:text-6xl font-bold text-[#ccf6f6]'>Hilary Okemeziem</h1>
                     <h2 className='text-4xl sm:text-6xl font-bold text-[#8892b0]'>A Frontend Developer.</h2>

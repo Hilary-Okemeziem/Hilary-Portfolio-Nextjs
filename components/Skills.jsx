@@ -36,8 +36,8 @@ const Skills = () => {
       window.addEventListener('scroll', reveal);
     }, [])
   return (
-    <div id='skill' className='w-full lg:h-screen p-2 py-16'>
-        <div className='max-w-[1240px] mx-auto flex  flex-col justify-center h-full lg:pl-4 reveal'>
+    <div id='skill' className='w-full lg:h-screen lg:pl-4 py-16'>
+        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full px-2 lg:px-10 reveal'>
             <div className='py-2'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Skills</p>
             </div>

@@ -32,8 +32,8 @@ const Projects = () => {
       window.addEventListener('scroll', reveal);
     }, [])
   return (
-    <div id='project' className='w-full  bg-[#070708]'>
-        <div className='max-w-[1240px] mx-auto px-2  py-[5rem] reveal '>
+    <div id='project' className='w-full lg:pl-4 bg-[#070708]'>
+        <div className='max-w-[1240px] mx-auto px-2 lg:px-10  py-[5rem] reveal '>
             <div className='py-2'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Projects</p>
             </div>

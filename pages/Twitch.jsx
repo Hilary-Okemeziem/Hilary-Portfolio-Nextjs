@@ -10,14 +10,16 @@ const Twitch = () => {
         <div className='w-screen h-[30vh] lg:h-[50vh] relative'>
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/80 z-10'/>
             <Image src={twitch} alt="/" className='absolute z-1' layout='fill' objectFit='cover'/>
-            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-300 z-10 p-2'>
-                <h2 className='py-2 text-4xl'>Twitch UI Clone</h2>
-                <h3 className='text-2xl'>Next JS / Tailwind / NextAuth.js</h3>
+            <div className='absolute top-[70%] max-w-[1240px] px-2 lg:px-10 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-300 z-10'>
+                <div className='lg:pl-4'>
+                    <h2 className='py-2 text-4xl'>Twitch UI Clone</h2>
+                    <h3 className='text-2xl'>Next JS / Tailwind / NextAuth.js</h3>
+                </div>
             </div>
         </div>
 
-        <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-            <div className='col-span-4'>
+        <div className='max-w-[1240px] mx-auto px-2 lg:px-10 grid md:grid-cols-5 gap-8 pt-8'>
+            <div className='col-span-4 lg:pl-4'>
                 <p className='font-bold'>Projects</p>
                 <h2 className='text-4xl'>Overview</h2>
                 <div className='py-2'>This Twitch clone was built with Next JS and is hosted on Vercel.</div>
@@ -47,7 +49,7 @@ const Twitch = () => {
                 </div>
             </div>
             <Link href='/#project'>
-                <p className='underline cursor-pointer'>Go Back</p>
+                <p className='underline cursor-pointer lg:pl-4'>Go Back</p>
             </Link>
         </div>
     </div>

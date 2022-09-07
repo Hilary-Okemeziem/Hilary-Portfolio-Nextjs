@@ -30,8 +30,8 @@ const Contact = () => {
       window.addEventListener('scroll', reveal);
     }, [])
   return (
-    <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] mx-auto px-2 pt-[5rem] pb-5 reveal'>
+    <div id='contact' className='w-full lg:h-screen lg:pl-4'>
+        <div className='max-w-[1240px] mx-auto px-2 lg:px-10 pt-[5rem] pb-5 reveal'>
             <div className='py-2'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Contact</p>
             </div>

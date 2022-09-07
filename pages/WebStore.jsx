@@ -7,18 +7,20 @@ import  Link  from 'next/link'
 const WebStore = () => {
   return (
     <div className='w-full bg-[#070708]'>
-        <div className='w-screen h-[30vh] lg:h-[50vh] relative'>
-            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[50vh] bg-black/80 z-10'/>
+        <div className='w-screen h-[40vh] lg:h-[50vh] relative'>
+            <div className='absolute top-0 left-0 w-full h-[40vh] lg:h-[50vh] bg-black/80 z-10'/>
             <Image src={kaycelle} alt="/" className='absolute z-1' layout='fill' objectFit='cover'/>
-            <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-300 z-10 p-2'>
-                <h2 className='py-2 text-4xl'>E-commerce Store</h2>
-                <h3 className='text-2xl'>React JS / Redux / Tailwind / Context API / Django / MongoDB / Paystack</h3>
+            <div className='absolute top-[70%] max-w-[1240px] px-2 lg:px-10 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-300 z-10 '>
+                <div className='lg:pl-4'>
+                    <h2 className='py-2 text-4xl'>E-commerce Store</h2>
+                    <h3 className='text-2xl'>React JS / Redux / Tailwind / Context API / Django / MongoDB / Paystack</h3>
+                </div>
             </div>
         </div>
 
-        <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-            <div className='col-span-4'>
-                <p className='font-bold'>Projects</p>
+        <div className='max-w-[1240px] mx-auto px-2 lg:px-10 grid md:grid-cols-5 gap-8 pt-8'>
+            <div className='col-span-4 lg:pl-4'>
+                <p className='font-bold'>Project</p>
                 <h2 className='text-4xl'>Overview</h2>
                 <div className='py-2'>This E-commerce store was built with React JS and is hosted on vercel. It is a frontend project with a django backend and mongo database.</div>
                 <div className='py-2'>I made use of the backend API for fetching all of the product data and for user authentication so users can sign-up and sign-in to their account in order to buy products.</div>
@@ -50,7 +52,7 @@ const WebStore = () => {
                 </div>
             </div>
             <Link href='/#project'>
-                <p className='underline cursor-pointer'>Go Back</p>
+                <p className='underline cursor-pointer lg:pl-4'>Go Back</p>
             </Link>
         </div>
     </div>
