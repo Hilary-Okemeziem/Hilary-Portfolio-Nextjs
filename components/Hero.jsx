@@ -84,7 +84,7 @@ const Hero = () => {
                             </div>
                         </Link> */}
 
-                        <a href='https://drive.google.com/file/d/1i21YRdbMP_w7yFqEBESwUfMHynWqfEN3/view?usp=drivesdk' target='_blank' rel='noreferrer'>
+                        <a href='https://drive.google.com/file/d/1ffsjcICAqqLMzGKEKCSiLEnYz3n19fua/view?usp=drivesdk' target='_blank' rel='noreferrer'>
                             <div className='rounded-full shadow-md shadow-black bg-[#0e0e10] p-3 cursor-pointer hover:scale-105 ease-in duration-300 ml-[2rem]'>
                                 <BsFillPersonLinesFill />
                             </div>
