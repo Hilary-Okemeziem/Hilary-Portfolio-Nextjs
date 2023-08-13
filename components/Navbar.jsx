@@ -167,7 +167,9 @@ const Navbar = () => {
                                 </div>
                             </Link>
                             
-                            <a href='https://drive.google.com/file/d/1ffsjcICAqqLMzGKEKCSiLEnYz3n19fua/view?usp=drivesdk' target='_blank' rel='noreferrer'>
+                            <a 
+                            href="https://drive.google.com/file/d/1r77q2kq9Q9wALkTURpUjBFpVLFvek02C/view?usp=drive_link"
+                            target='_blank' rel='noreferrer'>
                                 <div className='rounded-full shadow-md shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <BsFillPersonLinesFill />
                                 </div>
@@ -196,7 +198,9 @@ const Navbar = () => {
                             </Link>
                             
                             <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-5px] duration-300 bg-[#565f69]'>
-                                <a href='https://drive.google.com/file/d/1ffsjcICAqqLMzGKEKCSiLEnYz3n19fua/view?usp=drivesdk' target='_blank' rel='noreferrer' className='flex justify-between items-center w-full px-2 text-gray-300 font-bold'>
+                                <a 
+                                href="https://drive.google.com/file/d/1r77q2kq9Q9wALkTURpUjBFpVLFvek02C/view?usp=drive_link"
+                                target='_blank' rel='noreferrer' className='flex justify-between items-center w-full px-2 text-gray-300 font-bold'>
                                     Resume <BsFillPersonLinesFill size={30}/>
                                 </a>
                             </li>
