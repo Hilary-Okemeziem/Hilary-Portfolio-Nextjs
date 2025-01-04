@@ -36,172 +36,308 @@ const Skills = () => {
       window.addEventListener('scroll', reveal);
     }, [])
   return (
-    <div id='skill' className='w-full lg:h-screen lg:pl-4 py-16'>
-        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full px-2 lg:px-10 reveal'>
-            <div className='py-2'>
-                <p className='text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest'>Skills</p>
-            </div>
-            <h2 className='text-4xl text-gray-400 font-bold py-4'>What I Can Do</h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <Fade duration={2000}>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={html} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>HTML</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Fade>
-
-                <Rotate duration={2000} left>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={css} alt="/" width='64px' height='64px'/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>CSS</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Rotate>
-
-                <Flip duration={2000} bottom>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={javascript} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Javascript</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Flip>
-
-                <Roll duration={2000} top left>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={react} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>React JS </h3>
-                            </div>
-                        </div>
-                    </div>
-                </Roll>
-
-                <Slide duration={2000}>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={next} alt="/" width='70px' height='70px'/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Next JS</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Slide>
-
-                <Fade duration={2000}>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={redux} alt="/" width='70px' height='70px'/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Redux</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Fade>
-
-                <Zoom duration={2000} left>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={tailwind} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Tailwind CSS</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Zoom>
-
-                <Fade duration={2000} bottom>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={bootstrap} alt="/" width='64px' height='64px'/>
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Bootstrap</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Fade>
-
-                <Rotate duration={2000} top left>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={firebase} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Firebase</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Rotate>
-
-                <Flip duration={2000} bottom>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={git} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Git</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Flip>
-
-                <Roll duration={2000} left>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={github} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Github</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Roll>
-
-                <Slide duration={2000} bottom>
-                    <div className='p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='mx-auto'>
-                                <Image src={wordpress} alt="/" width='64px' height='64px' />
-                            </div>
-                            <div className='flex flex-col items-center justify-center'>
-                                <h3>Wordpress</h3>
-                            </div>
-                        </div>
-                    </div>
-                </Slide>
-            </div>            
+    <div id="skill" className="w-full lg:h-screen lg:pl-4 py-16">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full px-2 lg:px-10 reveal">
+        <div className="py-2">
+          <p className="text-3xl font-bold inline border-b-4 border-[#ff5757] uppercase tracking-widest">
+            Skills
+          </p>
         </div>
+        <h2 className="text-4xl text-gray-400 font-bold py-4">What I Can Do</h2>
+        <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <Fade duration={2000}>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={html} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>HTML</h3>
+                </div>
+              </div>
+            </div>
+          </Fade>
+
+          <Rotate duration={2000} left>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={css} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>CSS</h3>
+                </div>
+              </div>
+            </div>
+          </Rotate>
+
+          <Flip duration={2000} bottom>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={javascript} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Javascript</h3>
+                </div>
+              </div>
+            </div>
+          </Flip>
+
+          <Roll duration={2000} top left>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={react} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>React JS </h3>
+                </div>
+              </div>
+            </div>
+          </Roll>
+
+          <Slide duration={2000}>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={next} alt="/" width="70px" height="70px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Next JS</h3>
+                </div>
+              </div>
+            </div>
+          </Slide>
+
+          <Fade duration={2000}>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={redux} alt="/" width="70px" height="70px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Redux</h3>
+                </div>
+              </div>
+            </div>
+          </Fade>
+
+          <Zoom duration={2000} left>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={tailwind} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Tailwind CSS</h3>
+                </div>
+              </div>
+            </div>
+          </Zoom>
+
+          <Fade duration={2000} bottom>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={bootstrap} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Bootstrap</h3>
+                </div>
+              </div>
+            </div>
+          </Fade>
+
+          <Rotate duration={2000} top left>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={firebase} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Firebase</h3>
+                </div>
+              </div>
+            </div>
+          </Rotate>
+
+          <Flip duration={2000} bottom>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={git} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Git</h3>
+                </div>
+              </div>
+            </div>
+          </Flip>
+
+          <Roll duration={2000} left>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={github} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Github</h3>
+                </div>
+              </div>
+            </div>
+          </Roll>
+
+          <Slide duration={2000} bottom>
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={wordpress} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Wordpress</h3>
+                </div>
+              </div>
+            </div>
+          </Slide>
+        </div>
+
+        <div className="grid md:hidden lg:hidden gap-8">
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={html} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>HTML</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={css} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>CSS</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={javascript} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Javascript</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={react} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>React JS </h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={next} alt="/" width="70px" height="70px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Next JS</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={redux} alt="/" width="70px" height="70px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Redux</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={tailwind} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Tailwind CSS</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={bootstrap} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Bootstrap</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={firebase} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Firebase</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={git} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Git</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={github} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Github</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-md shadow-black bg-[#0e0e10] rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="mx-auto">
+                  <Image src={wordpress} alt="/" width="64px" height="64px" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>Wordpress</h3>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Skills
